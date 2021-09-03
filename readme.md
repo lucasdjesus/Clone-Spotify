@@ -1,1 +1,1 @@
-Essa é a primeira atualização do projeto de clone do spotify!!
+Essa é a primeira atualização do projeto de clone do spotify!
