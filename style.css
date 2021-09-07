@@ -19,6 +19,10 @@ body {
     font-weight: bold;
 }
 
+.logo {
+    height: 40px;
+    width: auto;
+}
 
 /* Navbar */
 #navbar {
@@ -38,10 +42,6 @@ body {
     padding: 25px 0;
 }
 
-#navbar .navbar-container .logo {
-        height: 40px;
-        width: auto;
-    }
 
 #navbar .navbar-container ul {
     display: flex;
@@ -84,3 +84,23 @@ body {
     margin: 15px 0;
     font-size: 1.1rem;
 }    
+
+/*footer */
+
+#footer {
+    background: black;
+    color: white;
+}
+
+#footer .footer-content {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+}
+
+#footer .footer-content .footer-menu {
+  margin: 0 40px;
+  list-style: none;
+
+}
