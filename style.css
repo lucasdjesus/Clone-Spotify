@@ -17,6 +17,12 @@ body {
     border-radius: 30px;
     letter-spacing: 1px;
     font-weight: bold;
+    transition: 300ms ease;
+}
+
+.button-btn-primary:hover{
+    background:#1ed760;
+    cursor: pointer;
 }
 
 .logo {
@@ -51,7 +57,12 @@ body {
 
 #navbar .navbar-container ul li {
     padding: 0 20px;
+    transition: all 500ms ease;
+}
 
+#navbar .navbar-container ul li:hover{
+    color: #1db954;
+    cursor: pointer;
 }
 
 #navbar .navbar-container ul li:nth-child(3) {
@@ -107,6 +118,11 @@ body {
 
 #footer .footer-content .footer-menu .footer-menu-item {
     margin: 25px 0;
+    transition: 300ms ease;
+}
+#footer .footer-content .footer-menu .footer-menu-item:hover{
+    color:#1ed760;;
+    cursor: pointer;
 }
 
 #footer .footer-content .footer-menu p {
@@ -123,6 +139,12 @@ body {
 .socials i {
     margin: 0 20px;
     font-size: 1.7rem;
+    transition: 400ms ease;
+}
+
+.socials i:hover{
+    color:#1db954;
+    cursor: pointer;
 }
 
 /*footer info*/
@@ -133,8 +155,10 @@ body {
     align-items: flex-end;
     width: 60%;
     margin: auto;
+    font-weight: bold;
     color: #919496;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
+    padding-top: 50px;
 }
 
 .footer-info .footer-info-items {
@@ -143,23 +167,19 @@ body {
 }
 
 .footer-info .footer-info-items .footer-info-item{
-    margin: 0 10px;
-    color: #919496;
-    font-size: 0.7rem;
+  margin: 0 10px;
 }
 
-.footer-info .rigths{
-    display: flex;
-    
-}
-
-.footer-info .rigths .country {
+.footer-info .rigths .country{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-bottom: 10px;
-
-
+    transition: 300ms ease;
+}
+.footer-info .rigths .country p:hover{
+    color:#1db954;
+    cursor: pointer;
 }
 .footer-info .rigths .country .brazil-flag {
     height: 20px;
